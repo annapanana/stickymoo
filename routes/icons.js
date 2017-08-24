@@ -10,7 +10,7 @@ router.get('/:term', (req, res, next) => {
           key: process.env.NOUN_PROJ_KEY,
           secret: process.env.NOUN_PROJ_SECRET
       });
-  nounProject.getIconsByTerm(term, {limit: 5}, (err, data) => {
+  nounProject.getIconsByTerm(term, {limit: 10}, (err, data) => {
     if (err) {
       return res.send(err);
     }

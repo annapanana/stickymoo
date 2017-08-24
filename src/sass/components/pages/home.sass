@@ -1,1 +1,17 @@
-
+div.home-wrap
+  div.customizer
+    margin-top: 2em
+  div.icon-selection
+    display: flex
+    flex-flow: row
+    justify-content: flex-start
+  img.display-icon
+    border: solid medium gray
+    margin: 1em 2em 1em 0
+    cursor: pointer
+    border-radius: 5px
+    transition: opacity .25s ease
+    &.selected
+      border-color: black
+    &:hover
+      opacity: .5
