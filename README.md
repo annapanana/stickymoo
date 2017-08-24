@@ -1,2 +1,1 @@
-# stickymoo
-noun project api + moo api
+Noun Project API + Moo API
