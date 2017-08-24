@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 8000;
@@ -15,9 +16,9 @@ app.use(bodyParser.json());
 // Specify node modules, and the public folder.
 app.use(express.static(path.join(__dirname, 'public')));
 
-const resource = require('./routes/resource');
+const icons = require('./routes/icons');
 
-app.use('/api/resource', resource);
+app.use('/api/icons', icons);
 
 // Wildcard Route, Sends the Index back incase of someone being where they shouldn't.
 app.use('*', function (req, res, next) {

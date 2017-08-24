@@ -1,6 +1,6 @@
 export function restCall(url, method, data) {
   $.ajax({
-    url: `http://localhost:3000/api/${url}`,
+    url: `http://localhost:8000/api/${url}`,
     method: method || 'GET',
     dataType: 'json',
     data: data || {}

@@ -1,5 +1,5 @@
 {
-  "name": "sticky moo",
+  "name": "sticky_moo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,11 +25,12 @@
     "pg": "^6.4.0",
     "postcss-loader": "^2.0.5",
     "react": "^15.5.4",
-    "react-bootstrap": "^0.31.0",
+    "react-bootstrap": "^0.31.2",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
+    "the-noun-project": "^2.0.1",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
   },
